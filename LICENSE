@@ -2,30 +2,32 @@ Ikna License
 
 Copyright (c) 2026 William Matthew Lindberg. All rights reserved.
 
-Ikna (the web app, the Android app, their source code, sample decks, texts,
-icons and other content, together "the Software") is free to use, but it is
-not open source. The source code is published so people can see how it works
-and trust what it does with their data.
+Ikna (the website at william-lindberg.github.io/ikna, the Android app, their
+code, sample decks, texts, icons and other content, together "the Software")
+is free to use, but it is not open source. The source code is not published.
+The Software is made only to be used: the website to be visited and used, and
+the Android app (APK) to be downloaded from the official page and installed.
 
 1. What you may do
 
    Free of charge, you may:
-   a. download, install and use the Software, on as many of your own devices
-      as you like, for your own personal, non-commercial learning;
+   a. use the website, and download the Android app from the official page
+      (github.com/William-Lindberg/ikna) and install it on your own devices,
+      for your own personal, non-commercial learning;
    b. use it in non-commercial teaching, for example a teacher using Ikna with
       a class, as long as nobody is charged for access to Ikna itself;
-   c. read the source code;
-   d. make backups of your own Ikna data, and share the cards and decks you
+   c. make backups of your own Ikna data, and share the cards and decks you
       made yourself.
 
 2. What you may not do
 
    Without prior written permission from the copyright holder, you may not:
-   a. copy, reproduce, republish or redistribute the Software or any part of
-      its source code, except for the copies made automatically when you
-      install and run it yourself;
-   b. modify the Software, or make, publish or distribute anything based on it
-      (a "derivative work"), including a renamed or rebranded version;
+   a. copy, reproduce, republish, re-upload or redistribute the Software or any
+      part of it, including the APK file and the website's files, except for
+      the copies made automatically when you install, run or visit it yourself;
+   b. modify, decompile, reverse engineer or take apart the Software, or make,
+      publish or distribute anything based on it (a "derivative work"),
+      including a renamed or rebranded version;
    c. use the Software, or any part of it, for commercial purposes. This
       includes selling it, charging for access to it, including it in a paid
       product or service, showing ads in or around it, or using it to make
@@ -33,19 +35,27 @@ and trust what it does with their data.
    d. remove or change this license or any copyright notice;
    e. use the name "Ikna" or the Ikna icon for another product.
 
-3. GitHub
+3. Third-party libraries
 
-   Because this repository is public, GitHub's Terms of Service let GitHub
-   users view and fork it on GitHub. A fork on GitHub gives no rights beyond
-   this license: you may not use, change or distribute a fork in any way
+   Ikna includes some third-party open-source libraries. Each of them is
+   covered by its own license, listed under "Open-source licences" in the app
+   and on the website. Those licenses apply only to those libraries. They give
+   no rights to Ikna itself or to any other part of the Software.
+
+4. GitHub
+
+   The website's files and the APK are hosted in a public GitHub repository.
+   GitHub's Terms of Service let GitHub users view and fork public
+   repositories on GitHub. That gives no rights beyond this license: you may
+   not use, change or distribute a fork or any of its files in any way
    section 2 does not allow.
 
-4. Ending
+5. Ending
 
    If you break this license, your permission to use the Software ends
    automatically.
 
-5. No warranty
+6. No warranty
 
    The Software is provided "as is", without warranty of any kind, express or
    implied, including the warranties of merchantability, fitness for a
