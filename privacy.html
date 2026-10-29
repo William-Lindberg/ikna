@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Ikna privacy</title>
+  <meta name="description" content="What Ikna stores, where, for how long, and how to delete it.">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <script>
+    try { var t = localStorage.getItem("ikna:theme"); if (t === "light" || t === "dark") document.documentElement.dataset.theme = t; } catch (e) {}
+  </script>
+  <style>
+    body { padding-bottom: 32px; }
+    .policy { max-width: 720px; }
+    .policy h2 { margin-top: 0; }
+    .policy li { margin: 4px 0; }
+  </style>
+</head>
+<body>
+  <header class="top"><a class="brand" href="./#/"><img src="icon.svg" alt="">Ikna</a></header>
+  <main class="policy">
+    <h1>Privacy</h1>
+    <p class="muted small">Last updated 29 October 2026</p>
+
+    <section class="panel">
+      <h2>In short</h2>
+      <ul>
+        <li>Ikna works fully without an account. Then your cards stay only on your device.</li>
+        <li>If you turn on sync, your cards are stored in the EU so they can be the same on all your devices.</li>
+        <li>No ads, no tracking, no analytics. Your data is never sold.</li>
+        <li>You can download or delete everything at any time.</li>
+      </ul>
+    </section>
+
+    <section class="panel">
+      <h2>Without an account</h2>
+      <p>Your decks, cards, progress, pictures and settings are kept in your browser (or in the Android app) on your device. Nothing is sent to
+        us. Backups you make are files you keep yourself.</p>
+    </section>
+
+    <section class="panel">
+      <h2>With an account (sync)</h2>
+      <p><b>What's stored:</b> your email address (to sign you in), your decks, cards, study history and progress, settings, and the pictures and
+        sounds in your cards. If you sign in with Google, we only receive your email address from Google.</p>
+      <p><b>Why:</b> to give you the sync you asked for (the legal basis is the contract with you). We use it for nothing else.</p>
+      <p><b>Where:</b> with Supabase, our hosting provider, in a data centre in the European Union. Supabase processes the data for us under a
+        data processing agreement. Your data is sent encrypted (HTTPS), and each account can only read its own data.</p>
+      <p><b>How long:</b> until you delete your account. Deleted cards are remembered as “deleted” for up to 90 days so your other devices
+        delete them too.</p>
+      <p><b>Your rights:</b> in Settings → Account and sync you can <b>Download my data</b> (a copy of everything) and <b>Delete my account</b>
+        (this removes your account and everything stored online; cards on your device stay until you delete them there). You can also ask us
+        to correct or delete your data, and you can complain to your data protection authority.</p>
+      <p><b>Backups:</b> keep your own backup (Settings → Back up) as a safety net; we can't restore deleted data for you.</p>
+    </section>
+
+    <section class="panel">
+      <h2>AI card maker (optional)</h2>
+      <p>The AI features use your own API key from OpenAI or Anthropic. Your key is stored only on your device. It is never put in backups,
+        exports or sync, and it never leaves your device except to go to the AI company you chose with each request.</p>
+      <p>Only when you press an ✨ AI button, the notes, photo or card you're working on are sent straight from your device to that company.
+        They don't pass through Ikna. That company's own privacy policy applies to what it receives
+        (<a href="https://openai.com/policies/privacy-policy/" target="_blank" rel="noopener noreferrer">OpenAI</a>,
+        <a href="https://www.anthropic.com/legal/privacy" target="_blank" rel="noopener noreferrer">Anthropic</a>).</p>
+    </section>
+
+    <section class="panel">
+      <h2>Children</h2>
+      <p>If you are under 16, please ask a parent or guardian before you create an account. (The age differs by country in the EU, from 13 to 16.)
+        You can use Ikna without an account at any age.</p>
+    </section>
+
+    <section class="panel">
+      <h2>Contact</h2>
+      <p>Questions or requests: open an issue at <a href="https://github.com/William-Lindberg/ikna/issues" target="_blank" rel="noopener noreferrer">github.com/William-Lindberg/ikna</a>.</p>
+      <p><a class="btn" href="./#/">Back to Ikna</a></p>
+    </section>
+  </main>
+</body>
+</html>
