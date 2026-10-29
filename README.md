@@ -16,64 +16,44 @@ Flashcards with smart spaced repetition, for exams, facts, definitions, formulas
 
 ## Why Ikna instead of Anki?
 
-Anki is powerful, but it's famously hard to learn: note types, templates, ease factors, filtered
-decks, add-ons. Ikna keeps the same proven method and the power, and removes the confusion. It also
-adds the things students actually need before an exam.
+Same proven method as Anki, without the confusion, plus the things students need before an exam.
+<b>not in Anki</b> = Anki doesn't have it built in. <b>easier than Anki</b> = Anki can do it, but it takes more work.
 
-### ⚡ Adding cards takes seconds
-- **Quick add:** type `question = answer` on the home screen and press Enter. No forms, no note types.
-- **Paste a whole list** and get a card for every line.
-- **Tap words to hide them** to make fill-in-the-blank cards. No `{{c1::…}}` syntax to remember.
-- **Photo cards**, **add while studying**, a **duplicate warning**, and Share to Ikna from any Android app.
-- **AI card maker** (optional, with your own OpenAI or Claude key): turn your notes or a photo of a page
-  into a set of cards you can check before adding.
+### ⚡ Adding cards
+- [x] Quick add: type `question = answer` and press Enter — <b>easier than Anki</b>
+- [x] Paste a whole list and get a card for every line — <b>easier than Anki</b>
+- [x] Tap words to hide them for fill-in-the-blank cards, no `{{c1::…}}` syntax — <b>easier than Anki</b>
+- [x] AI card maker from your notes or a photo (optional, your own OpenAI or Claude key) — <b>not in Anki</b>
+- [x] Duplicate warning while you type — <b>not in Anki</b>
+- [x] Card tips that help you write cards that are easier to remember — <b>not in Anki</b>
+- [x] Photo cards, add while studying, and Share to Ikna from any Android app
 
-### 🎯 Built for exams
-- **Exam planner:** give a deck an exam date, and Ikna tells you how much to study each day and makes
-  sure every card comes up before the exam.
-- **Exam simulation:** a timed practice test with a score and a list of what you got wrong. It
-  doesn't change your schedule.
-- **Comeback mode:** missed a week? Instead of a wall of 600 overdue cards, Ikna spreads them over a
-  few days.
-- **"About 12 min" on the Study button**, plus 5, 10 or 20-minute sessions.
+### 🎯 Exams
+- [x] Exam planner: how much to study each day so every card comes up before the exam — <b>not in Anki</b>
+- [x] Timed exam simulation with a score and a list of mistakes — <b>not in Anki</b>
+- [x] Comeback mode: a big backlog after a break is spread over a few days — <b>not in Anki</b>
+- [x] Study-time estimate ("about 12 min") and 5, 10 or 20-minute sessions — <b>not in Anki</b>
+- [x] Retry my mistakes at the end of a session — <b>not in Anki</b>
 
-### 🧠 Easy to understand
-- **Four clear buttons:** Forgot · Hard · Got it · Easy, each showing when you'll see the card again.
-- **One plain setting:** *how much do you want to remember?* (90% by default). Ikna uses the modern
-  FSRS scheduler under the hood.
-- **Memory strength per deck** ("87% remembered ▲"), a gentle streak with a rest day each week, and
-  tips that help you write better cards.
-- **Trouble cards:** Ikna spots cards you keep forgetting and helps you fix them.
+### 🧠 Simple to use
+- [x] Learn it in minutes: four clear buttons (Forgot · Hard · Got it · Easy) — <b>easier than Anki</b>
+- [x] One plain memory setting instead of dozens of options — <b>easier than Anki</b>
+- [x] Modern FSRS scheduler on by default (in Anki you have to turn it on) — <b>easier than Anki</b>
+- [x] Memory strength per deck ("87% remembered ▲") — <b>not in Anki</b>
+- [x] Gentle streak with a rest day each week — <b>not in Anki</b>
+- [x] Trouble cards: spots cards you keep forgetting and helps you fix them — <b>easier than Anki</b>
 
 ### 📱 Everywhere, for free
-- A full **web app** and an **Android app** with the same features, plus free **sync** between them
-  (sign in with email or Google). Ikna works fully without an account too.
+- [x] Full app in the browser, not just reviewing — <b>not in Anki</b>
+- [x] iPhone through the web app, free (Anki's iPhone app is paid) — <b>easier than Anki</b>
+- [x] Android app and free sync with email or Google login
+- [x] Works fully without an account, offline after the first visit
+- [x] No ads, no tracking
 
-### Ikna and Anki side by side
-
-| | **Ikna** | Anki |
-|---|---|---|
-| Learn to use it | Minutes | Hours, plus guides and videos |
-| Add a card | Type `question = answer`, press Enter | Choose a note type, fill in fields |
-| Fill-in-the-blank cards | Tap the words to hide | Type `{{c1::…}}` syntax |
-| Exam planner (cards per day until the exam) | ✅ Built in | ❌ Not built in |
-| Timed exam simulation with a score | ✅ Built in | ❌ Not built in |
-| Spread a backlog after a break | ✅ Comeback mode | ❌ Manual |
-| Study-time estimate and timed sessions | ✅ | ❌ |
-| AI card maker from notes or photos | ✅ Optional, your own key | Add-ons only |
-| Hide parts of an image (image occlusion) | ✅ | ✅ |
-| Formulas, images and sound | ✅ | ✅ |
-| Modern FSRS scheduler | ✅ On by default | ✅ Must be turned on |
-| Full app in the browser | ✅ | ❌ AnkiWeb is limited |
-| Android app | ✅ Free | ✅ Free (AnkiDroid) |
-| iPhone | ✅ Through the web app | Paid app |
-| Sync between devices | ✅ Free | ✅ Free |
-| Import Anki decks (.apkg) with your progress | ✅ | — |
-| Export back to Anki | ✅ | — |
-| Price | Free | Free (iPhone app paid) |
-
-**Already use Anki?** Import your `.apkg` decks, including pictures, sound and your review progress,
-and keep going in Ikna. You can always export back to Anki.
+### 🔁 Switching from Anki
+- [x] Import your Anki decks (.apkg) with pictures, sound and your review progress
+- [x] Export back to Anki at any time
+- [x] Hide parts of an image (image occlusion), formulas, images and sound, just like Anki
 
 ## Everything else
 
