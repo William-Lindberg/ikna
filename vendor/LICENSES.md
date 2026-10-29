@@ -1,7 +1,8 @@
 # Third-party code in the Ikna web app
 
-Ikna itself is not open source (see the LICENSE file in the repository). The libraries below are
-included unchanged, under their own licences, which are reproduced here.
+Ikna itself is **not** open source and is **not** covered by any licence on this page: Ikna may not be
+copied, redistributed or used commercially (see the [Ikna licence](../license.html)). The libraries below
+are included unchanged, under their own licences, which are reproduced here and apply only to each library.
 
 | File | Library | Licence | Used for |
 |---|---|---|---|
